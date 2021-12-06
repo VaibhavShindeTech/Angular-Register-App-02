@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'register-app';
+  username:string="";
+  password:string="";
+  confirmPassword:string="";
+  gender:string="";
+  country:string="";
+  msg:string="";
+  register(){
+    this.msg="Registration Successfully Completed...!";
+  }
 }
